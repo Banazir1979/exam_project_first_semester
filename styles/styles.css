@@ -24,9 +24,11 @@ h2{
 	font-family: 'Trocchi', serif;
 	font-size: 1.5rem;
 	color: white;
+	
 }
 h3{
 	font-size: 1.5rem;
+	padding-bottom: 2%;
 }
 h4{
 	font-size: 1.0rem;
@@ -55,33 +57,93 @@ h4{
 
 
 
-/*project styles*/
+
+/*Image styles & main styles*/
+#frontpageimage{
+	width: 100vw;
+	height: 60vh;
+	background-image: url(../images/flow_background.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 2%;
+}
+.docimages{
+	width: 100%;
+	height: auto;
+}
+/*Project images*/
+.sweetbot{
+	width: 100%;
+	height: auto;
+}
+.bygdinegenapp{
+	width: 54%;
+	height: auto;
+}
+.introproject{
+	width: 100%;
+	height: auto;
+}
+.buildyourportfolio{
+	width: 80%;
+	height: auto;
+}
+
+
+
+
+
+
+/*Gallery styles*/
 .gallery{
 	display: flex;
 	flex-wrap: wrap;
-	width: 70vw;
+	width: 80vw;
 	height: auto;
+	padding-top: 10%;
 }
+@media only screen and (max-width: 1000px) {
+	.gallery{
+		flex-wrap: wrap;
+	}
+}
+
+
+
+
+
+/*project styles*/
+
 .project{
 	height: auto;
-	width: 300px;
+	width: 28%;
 	background: #D24345;
 	margin-left: 5%;
 	margin-top: 5%;
 	margin-bottom: 5%;
-	overflow: auto;
-	transition: 0.2s;
+	/*overflow: auto;*/
 }
+@media only screen and (max-width: 1000px) {
+	.project{
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.project{
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.project{
+		width: 90%;
+	}
+}
+
+
+
 /*.project:hover {
 	transform: scale(1.1);}*/
-@media only screen and (max-width: 1000px) {
-	.gallery{
-	flex-wrap: wrap;	
-	}
-	.aside{
-	display: none;
-	}
-}
+
 
 
 
@@ -90,13 +152,30 @@ h4{
 .process{
 	height: auto;
 	width: 300px;
-	background: #D24345;
+ 	background: #D24345;
 	margin-left: 5%;
 	margin-top: 5%;
-	margin-bottom: 5%;
-	overflow: auto;
-	transition: 0.2s;
+	/*overflow: auto;*/
+	
 }
+.continued{
+	padding-top: 3%;
+}
+
+
+
+
+
+/*Documentaion styles*/
+.documentation{
+	height: auto;
+	width: 40%;
+ 	background: #D24345;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+
 
 
 
@@ -120,23 +199,6 @@ h4{
 
 
 
-/*Project images*/
-.sweetbot{
-	width: 100%;
-	height: auto;
-}
-.bygdinegenapp{
-	width: 54%;
-	height: auto;
-}
-.introproject{
-	width: 100%;
-	height: auto;
-}
-.buildyourportfolio{
-	width: 80%;
-	height: auto;
-}
 
 
 
@@ -244,15 +306,6 @@ header {
 
 
 
-/*Image styles & main styles*/
-#frontpageimage{
-	width: 100vw;
-	height: 60vh;
-	background-image: url(../images/flow_background.png);
-	background-repeat: no-repeat;
-	text-align: center;
-	padding-top: 2%;
-}
 
 
 
