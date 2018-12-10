@@ -72,23 +72,10 @@ h4{
 	height: auto;
 }
 /*Project images*/
-.sweetbot{
+.projectimages{
 	width: 100%;
 	height: auto;
 }
-.bygdinegenapp{
-	width: 54%;
-	height: auto;
-}
-.introproject{
-	width: 100%;
-	height: auto;
-}
-.buildyourportfolio{
-	width: 80%;
-	height: auto;
-}
-
 
 
 
@@ -184,10 +171,13 @@ h4{
 .aside{
 	background: #41B743;
 	height: auto;
-	width: 200px;
+	width: 10%;
 	margin-left: 5%;
 	margin-top: 5%;
 	margin-bottom: 5%;
+	position: absolute;
+	top: 37%;
+	right: 5%;
 }
 @media only screen and (max-width: 1000px) {
 	.aside{
@@ -211,20 +201,27 @@ a:visited {
     color: black;
 }
 a:hover {
-    color: #05491E;
+    background: #ff0000;
+	color: white;
+	
 }
 a:active {
     color: #FF0000;
 }
 .doclink{
-	border: 1px solid black;
-	font-weight: 700;
-	background: #B1A4A4;
-	transition: 0.2s;
-	
+	border-bottom: 1px solid black;
+	font-weight: 400;
+	background: white;
 }
-
-
+.calltoaction a {
+    
+	text-decoration: none;
+}
+.calltoaction{
+	display: block;
+	text-align: center;
+	background-color: #FDFF00;
+}
 /*header styles*/
 
 
@@ -311,13 +308,7 @@ header {
 
 
 /*Footer styles*/
-.calltoaction{
-	display: block;
-	text-align: center;
-	background-color: #FDFF00;
-	color: #FFFFFF;
-	text-shadow: 2px 2px 4px #000000;
-}
+
 .missionstatement{
 	margin-left: 5%;
 	margin-top: 2%;
