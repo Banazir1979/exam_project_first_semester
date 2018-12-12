@@ -225,6 +225,7 @@ a:active {
 	background-image: url(../images/flow_background.png);
 	background-repeat: no-repeat;
 	text-align: center;
+	margin-top: 2%;
 	padding-top: 2%;
 }
 .docimages{
