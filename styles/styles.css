@@ -58,6 +58,10 @@ h4{
 	font-size: 1.0rem;
 	padding-bottom: 2%;
 	padding-top: 2%;
+}h5{
+	font-family: 'Trocchi', serif;
+	font-size: 0.8rem;
+	
 }
 /*@media only screen and (min-width: 1700px) {
 	
@@ -428,9 +432,59 @@ img{
 
 
 
+/*Contact styles*/
+.contactmap{
+	margin-left: 4.7vw;
+	margin-top: 5%;
+	width: 42.7vw;
+	height: auto;
+}
+.contactmap img{
+	width: 100%;
+	height: auto;
+}
+/*Form styels*/
+.emailform {
+	margin-left: 4.7vw;
+	width: 19vw;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	
+}
+
+.emailform input,textarea {
+	margin: 10px 0;
+	border: 1px solid black;
+}
+.emailform label {
+	margin: 10px 0;
+	
+}
+form input {
+	width: 70%;
+	vertical-align: top;
+}
+
+#email {
+	width: 80%;
+	height: 300px;
+}
 
 
+input[type=submit] {
+	width: 40%;
+	margin-left: 5%;
+	background-color: #D5F00F;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border: none;
+	cursor: pointer;
+	color: #000000;
+}
 
+input[type=submit]:hover {
+	background-color: #6F7104;
+}
 
 
 
@@ -438,7 +492,11 @@ img{
 
 
 /*Footer styles*/
-
+.border{
+	height: 16px;
+	width: 100%;
+	background: #D5F00F;
+}
 .missionstatement{
 	margin-left: 4.7vw;
 	margin-top: 4%;
