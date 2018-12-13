@@ -109,7 +109,9 @@ h4{
 	margin-right: 4.7vw;
 	margin-top: 5vh;
 }
-
+.intro p{
+	width: 75%;
+}
 header {
 	display: flex;
 	justify-content: space-between;
@@ -237,7 +239,7 @@ a:active {
 	background-image: url(../images/flow_background.png);
 	background-repeat: no-repeat;
 	text-align: center;
-	margin-top: 2%;
+	margin-top: 3%;
 	padding-top: 2%;
 }
 .docimages{
@@ -249,7 +251,11 @@ img{
 	margin-bottom: 2%;
 	border: 1px solid black;
 }
-
+/*About images*/
+.aboutimage img{
+	width: 100%;
+	height: auto;
+}
 
 /*Project images*/
 .projectimages{
@@ -373,6 +379,27 @@ img{
 		justify-content: center;
 	}
 	
+}
+
+
+
+
+
+/*About styles*/
+.abouttext{
+	width: 42.7vw;
+	background: #D24345;
+	margin-left: 4.7vw;
+	margin-top: 5%;
+}
+.aboutimage{
+	width: 19vw;
+	height: auto;
+	margin-left: 4.7vw;
+	margin-top: 5%;
+}
+.aboutlist{
+	list-style-position: inside;
 }
 
 
