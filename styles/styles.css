@@ -231,6 +231,18 @@ a:active {
 	text-align: center;
 	background-color: #FDFF00;
 }
+.socialcontact{
+	display: flex;
+	margin-left: 4.7vw;
+	width: 10%;
+	height: auto;
+}
+.socialcontact img{
+	width: 100%;
+	height: auto;
+}
+
+
 
 
 
