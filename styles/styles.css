@@ -370,7 +370,7 @@ img{
 
 @media only screen and (max-width: 1000px) {
 	.documentation, .process{
-		width: 43vw;
+		width: 70vw;
 		
 	}
 	.gallery{
@@ -455,6 +455,14 @@ img{
 	width: 100%;
 	height: auto;
 }
+.address{
+	margin-left: 4.7vw;
+	margin-top: 5%;
+}
+.address ul{
+	list-style-type: none;
+}
+
 /*Form styels*/
 .emailform {
 	margin-left: 4.7vw;
