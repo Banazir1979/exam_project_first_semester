@@ -258,6 +258,7 @@ a:active {
 	margin-top: 3%;
 	padding-top: 2%;
 }
+/*Documentation images*/
 .docimages{
 	width: 60%;
 	height: auto;
@@ -284,6 +285,8 @@ img{
 	width: 100%;
 	height: auto;
 }
+
+
 
 
 
@@ -409,6 +412,8 @@ img{
 .imagenavigation{
 	width: 70%;	
 	height: auto;
+	
+	
 	
 		
 }
