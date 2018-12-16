@@ -39,12 +39,12 @@ ul {
 h1{
 	font-family: 'Trocchi', serif;
 	font-size: 2rem;
-	color: white;
+	
 }
 h2{
 	font-family: 'Trocchi', serif;
 	font-size: 1.5rem;
-	color: white;
+	
 	
 }
 h3{
@@ -113,6 +113,12 @@ h4{
 	margin-right: 4.7vw;
 	margin-top: 5vh;
 }
+@media only screen and (max-width: 800px) {
+	.intro{
+		
+		
+	}
+}
 .intro p{
 	width: 75%;
 }
@@ -136,6 +142,7 @@ header {
 		height: 1.5%;
 		padding: 3px;
 	}
+}
 @media only screen and (max-width: 600px) {
 	.search{
 		width: 40%;
@@ -143,7 +150,7 @@ header {
 		padding: 1px;
 	}
 }
-}
+
 .logo{
 	width: 25%;
 	height: 4%;
@@ -159,6 +166,11 @@ header {
 		width: 40%;
 	}
 }
+
+
+
+
+
 
 
 
@@ -191,6 +203,8 @@ header {
 		margin-left: 10%;
 	}
 }
+
+
 
 
 
@@ -234,13 +248,28 @@ a:active {
 .socialcontact{
 	display: flex;
 	margin-left: 4.7vw;
-	width: 10%;
+	width: 10vw;
 	height: auto;
+}
+@media only screen and (max-width: 1000px){
+	.socialcontact{
+		width: 20vw;
+		height: auto;
+	}
+}
+@media only screen and (max-width: 600px){
+	.socialcontact{
+		width: 30vw;
+		height: auto;
+	}
 }
 .socialcontact img{
 	width: 100%;
 	height: auto;
 }
+
+
+
 
 
 
@@ -258,12 +287,15 @@ a:active {
 	margin-top: 3%;
 	padding-top: 2%;
 }
+#frontpageimage h2,h1{
+	color: white;
+}
 /*Documentation images*/
 .docimages{
 	width: 60%;
 	height: auto;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1000px){
 	.docimages{
 		width: 100%;
 		height: auto;
@@ -292,6 +324,9 @@ img{
 
 
 
+
+
+
 /*Gallery styles*/
 .gallery{
 	display: flex;
@@ -301,6 +336,8 @@ img{
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
+
+
 
 
 
@@ -318,8 +355,9 @@ img{
 }
 @media only screen and (max-width: 1000px) {
 	.project{
-		width: 43vw;
-		
+		width: 42.7vw;
+		margin-left: 0px;
+		margin-right: 4.7vw;
 	}
 	.gallery{
 		width: 100vw;
@@ -328,6 +366,7 @@ img{
 @media only screen and (max-width: 800px) {
 	.project{
 		width: 70vw;
+		
 	}
 	.gallery{
 		width: 100vw;
@@ -336,14 +375,16 @@ img{
 }
 @media only screen and (max-width: 600px) {
 	.project{
-		width: 80vw;
+		width: 85vw;
 	}
 	.gallery{
 		width: 100vw;
-		justify-content: center;
+		
 	}
 	
 }
+
+
 
 
 
@@ -364,10 +405,13 @@ img{
 
 
 
+
+
+
+
 /*Documentaion styles*/
 .documentation{
 	height: auto;
-	/*width: 19vw;*/
 	width: 100%;
  	background: #D24345;
 	margin-left: 4.7vw;
@@ -376,32 +420,40 @@ img{
 .column{
 	column-count: 3;
 }
-
+@media only screen and (max-width: 800px) {
+	.column{
+		column-count: 2;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.column{
+		column-count: 1;
+	}
+}
 @media only screen and (max-width: 1000px) {
 	.documentation, .process{
 		width: 70vw;
+		margin-left: 0px;
+		margin-right: 4.7vw;
 		
 	}
 	.gallery{
 		width: 100vw;
+		justify-content: center;
 	}
 }
 @media only screen and (max-width: 800px) {
 	.documentation, .process{
 		width: 70vw;
 	}
-	.gallery{
-		width: 100vw;
-		justify-content: center;
-	}
+	
 }
 @media only screen and (max-width: 600px) {
 	.documentation, .process{
-		width: 80vw;
+		width: 85vw;
 	}
 	.gallery{
 		width: 100vw;
-		justify-content: center;
 	}
 	
 }
@@ -420,6 +472,11 @@ img{
 
 
 
+
+
+
+
+
 /*About styles*/
 .abouttext{
 	width: 42.7vw;
@@ -433,9 +490,28 @@ img{
 	margin-left: 4.7vw;
 	margin-top: 5%;
 }
+@media only screen and (max-width: 800px) {
+	.aboutimage, .abouttext{
+		width: 70vw;
+		margin-left: 0px;
+		margin-right: 4.7vw;
+		
+	}
+}
+@media only screen and (max-width: 600px) {
+	.aboutimage, .abouttext{
+		width: 85vw;
+		
+		
+	}
+}
 .aboutlist{
 	list-style-position: inside;
 }
+
+
+
+
 
 
 
@@ -457,6 +533,9 @@ img{
 	display: none;
 	}
 }
+
+
+
 
 
 
@@ -500,7 +579,7 @@ img{
 	
 }
 form input {
-	width: 70%;
+	width: 80%;
 	vertical-align: top;
 }
 
@@ -524,6 +603,26 @@ input[type=submit] {
 input[type=submit]:hover {
 	background-color: #6F7104;
 }
+@media only screen and (max-width: 1000px){
+	.emailform, .address, .contactmap{
+		width: 75%;
+		height: auto;
+		margin-left: 0px;
+		margin-right: 4.7vw;
+	}
+}
+@media only screen and (max-width: 600px){
+	.emailform, .address, .contactmap{
+		width: 75%;
+		height: auto;
+		
+	}
+}
+
+
+
+
+
 
 
 
