@@ -211,6 +211,8 @@ header {
 
 
 
+
+
 /*link styles*/
 
 
@@ -222,24 +224,34 @@ a:visited {
     color: black;
 }
 a:hover {
-    background: #ff0000;
-	color: white;
+   	transform: scale(1.1);
+	opacity: 0.9;
 	
 }
 a:active {
     color: #FF0000;
 }
+a.logo:hover{
+	transform: scale(1.01);
+	opacity: 1;
+}
+
 .doclink{
 	border-bottom: 1px solid black;
-	font-weight: 400;
 	background: white;
 	margin-right: 1%;
 	margin-top: 1%;
+}
+a.doclink:hover{
+	opacity: 0.9;
+	
+	
 }
 .calltoaction a {
     
 	text-decoration: none;
 }
+
 .calltoaction{
 	display: block;
 	text-align: center;
@@ -317,6 +329,18 @@ img{
 	width: 100%;
 	height: auto;
 }
+.enlargedimage{
+	width: 100%;
+	height: auto;
+	padding-left: 4.7vw;
+}
+.enlargedimage img{
+	width: 100%;
+	height: auto;
+}
+
+
+
 
 
 
