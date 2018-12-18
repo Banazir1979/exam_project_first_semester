@@ -372,7 +372,10 @@ figure{
 	margin-top: 5%;
 	margin-bottom: 7%;
 }
-
+.processimage img{
+	width: 100%;
+	height: auto;
+}
 
 
 
@@ -445,14 +448,34 @@ figure{
 
 
 
+
+
+
+
 /*Process styles*/
 .process{
 	height: auto;
 	width: 19vw;
  	margin-left: 4.7vw;
 	margin-top: 5%;
-	
-	
+}
+.processimage{
+	width: 66.4vw;
+	height: auto;
+	margin-left: 4.7vw;
+	margin-top: 5%;
+}
+@media only screen and (max-width:800px){
+	.processimage{
+		width: 75vw;
+		
+	}
+}
+@media only screen and (max-width:600px){
+	.processimage{
+		width: 90vw;
+		
+	}
 }
 
 
