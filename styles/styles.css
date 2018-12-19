@@ -10,7 +10,7 @@ body{
 	font-size: 80%;
 }
 p{
-	text-indent: 4.7%;
+	text-indent: 3%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 }
@@ -108,12 +108,12 @@ h4{
 
 /*header styles*/
 .intro h1,h2{
-	color: #19FF6E;
+	color: #FDFF00;
 	padding-left: 1%;
 }
 .intro{
-	background: #05491e;
-	color: #19FF6E;
+	background: #054914;
+	color: #fdff00;
 	margin-left: 4.7vw;
 	margin-right: 4.7vw;
 	margin-top: 5vh;
@@ -123,6 +123,7 @@ h4{
 	width: 75%;
 	padding-left: 1%;
 	padding-bottom: 1%;
+	text-indent: 0px;
 }
 @media only screen and (max-width: 800px) {
 	.intro p{
@@ -378,6 +379,7 @@ figure{
 .processimage img{
 	width: 100%;
 	height: auto;
+	border: 1px solid #DBDBDB;
 }
 
 
@@ -553,10 +555,13 @@ figure{
 }
 .projectlinks h4{
 	font-size: 1.5rem;
-	background: #19ff6e;
+	/*background: #19ff6e;*/
+	background: #05491e;
 	padding-left: 1%;
 	padding-top: 1%;
 	margin-bottom: 4px;
+	color: white;
+	
 }
 @media only screen and (max-width: 600px) {
 	.projectlinks h4{
@@ -748,7 +753,6 @@ input[type=submit]:hover {
 	height: 16px;
 	margin-left: 4.7vw;
 	margin-right: 4.7vw;
-	
 	background: #fdff00;
 }
 .missionstatement{
@@ -771,6 +775,7 @@ input[type=submit]:hover {
 	margin-bottom: 2%;
 	margin-top: 1%;
 	margin-right: 2%;
+	display: none;
 	
 	
 }
@@ -800,7 +805,7 @@ footer{
 	display: flex;
 	line-height: 1.3;
 	background: #Ff0000;
-	color: #FFb3b3;
+	color: #Fdff00;
 	margin-left: 4.7vw;
 	margin-right: 4.7vw;
 	margin-bottom: 5%;
