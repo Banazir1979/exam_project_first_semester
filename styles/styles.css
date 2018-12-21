@@ -7,7 +7,12 @@
 body{
 	box-sizing: border-box;
 	font-family: 'Noto Sans', sans-serif;
-	font-size: 80%;
+	font-size: 110%;
+}
+@media only screen and (max-width: 1600px) {
+	body{
+		font-size: 80%;
+	}
 }
 p{
 	text-indent: 3%;
@@ -608,19 +613,12 @@ figure{
 	margin-left: 4.7vw;
 	margin-top: 5%;
 }
-@media only screen and (max-width: 800px) {
-	.aboutimage, .abouttext{
-		width: 70vw;
-		margin-left: 0px;
-		margin-right: 4.7vw;
-		
-	}
-}
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1000px) {
 	.aboutimage, .abouttext{
 		width: 85vw;
-		
-		
+		margin-left: 0px;
+		margin-right: 4.7vw;
 	}
 }
 .aboutlist{
