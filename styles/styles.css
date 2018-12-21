@@ -3,6 +3,8 @@
 /*Font Import*/
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Trocchi');
+
+
 /*global styles*/
 body{
 	box-sizing: border-box;
@@ -19,23 +21,6 @@ p{
 	margin-top: 1%;
 	margin-bottom: 1%;
 }
-/*@media only screen and (min-width: 1400px) {
-	body{
-		font-size: 110%;
-		}
-	h1{
-		font-size: 2.5rem;
-	}
-	h2{
-		font-size: 2rem;
-	}
-	h3{
-		font-size: 2rem;
-	}
-	h4{
-		font-size: 1.5rem;
-	}
-}*/
 ul {
   margin: 0;
   padding: 0;
@@ -49,8 +34,6 @@ h1{
 h2{
 	font-family: 'Trocchi', serif;
 	font-size: 1.5rem;
-	
-	
 }
 h3{
 	font-family: 'Trocchi', serif;
@@ -68,21 +51,6 @@ h4{
 	font-size: 0.8rem;
 	
 }
-/*@media only screen and (min-width: 1700px) {
-	
-	h1{
-		font-size: 2.5rem;
-	}
-	h2{
-		font-size: 2rem;
-	}
-	h3{
-		font-size: 2rem;
-	}
-	h4{
-		font-size: 1.5rem;
-	}
-}*/
 @media only screen and (max-width: 800px) {
 	h1{
 		font-size: 1.5rem;
@@ -106,6 +74,11 @@ h4{
 .courses{
 	margin-top: 2%;
 }
+
+
+
+
+
 
 
 
@@ -164,7 +137,6 @@ header {
 		padding: 1px;
 	}
 }
-
 .logo{
 	width: 25%;
 	height: 4%;
@@ -215,8 +187,16 @@ header {
 	.navtop, .navbottom{
 		width: 70%;
 		margin-left: 10%;
+		font-size: 120%;
 	}
 }
+@media only screen and (max-width: 600px) {
+	.navtop, .navbottom{
+		width: 90%;
+		font-size: 150%;
+	}
+}
+
 
 
 
@@ -338,7 +318,6 @@ a.doclink:hover{
 	color: white;
 	
 }
-
 /*Documentation images*/
 .docimages{
 	width: 60%;
@@ -396,6 +375,10 @@ figure{
 
 
 
+
+
+
+
 /*Gallery styles*/
 .gallery{
 	display: flex;
@@ -405,6 +388,11 @@ figure{
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
+
+
+
+
+
 
 
 
@@ -560,7 +548,6 @@ figure{
 }
 .projectlinks h4{
 	font-size: 1.5rem;
-	/*background: #19ff6e;*/
 	background: #05491e;
 	padding-left: 1%;
 	padding-top: 1%;
@@ -804,7 +791,6 @@ input[type=submit]:hover {
 footer{
 	display: flex;
 	line-height: 1.3;
-	/*background: #Ff0000;*/
 	background: #05491e;
 	color: white;
 	margin-left: 4.7vw;
